@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import logo from '../Assets/Logo.png';
 import "../Assets/css/loading.css";
 import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
-import ApiGate from '../Utils/api';
 
 export default function Head() {
   const [isActive, setIsActive] = useState(true);
